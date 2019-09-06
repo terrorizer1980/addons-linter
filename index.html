@@ -86,54 +86,9 @@
 <td>This version of a JS library is not recommended.</td>
 </tr>
 <tr>
-<td><code>TABS_GETSELECTED</code></td>
+<td><code>DEPRECATED_API</code></td>
 <td>warning</td>
-<td>Deprecated API <code>tabs.getSelected</code>.</td>
-</tr>
-<tr>
-<td><code>TABS_SENDREQUEST</code></td>
-<td>warning</td>
-<td>Deprecated API <code>tabs.sendRequest</code>.</td>
-</tr>
-<tr>
-<td><code>TABS_GETALLINWINDOW</code></td>
-<td>warning</td>
-<td>Deprecated API <code>tabs.getAllInWindow</code>.</td>
-</tr>
-<tr>
-<td><code>TABS_ONSELECTIONCHANGED</code></td>
-<td>warning</td>
-<td>Deprecated API <code>tabs.onSelectionChanged</code>.</td>
-</tr>
-<tr>
-<td><code>TABS_ONACTIVECHANGED</code></td>
-<td>warning</td>
-<td>Deprecated API <code>tabs.onActiveChanged</code>.</td>
-</tr>
-<tr>
-<td><code>EXT_SENDREQUEST</code></td>
-<td>warning</td>
-<td>Deprecated API <code>extension.sendRequest</code>.</td>
-</tr>
-<tr>
-<td><code>EXT_ONREQUESTEXTERNAL</code></td>
-<td>warning</td>
-<td>Deprecated API <code>extension.onRequestExternal</code>.</td>
-</tr>
-<tr>
-<td><code>EXT_ONREQUEST</code></td>
-<td>warning</td>
-<td>Deprecated API <code>extension.onRequest</code>.</td>
-</tr>
-<tr>
-<td><code>APP_GETDETAILS</code></td>
-<td>warning</td>
-<td>Deprecated API <code>app.getDetails</code>.</td>
-</tr>
-<tr>
-<td><code>STORAGE_LOCAL</code></td>
-<td>warning</td>
-<td>Temporary IDs can cause issues with <code>storage.local</code>.</td>
+<td>API is deprecated.</td>
 </tr>
 <tr>
 <td><code>STORAGE_SYNC</code></td>
@@ -141,9 +96,24 @@
 <td>Temporary IDs can cause issues with <code>storage.sync</code>.</td>
 </tr>
 <tr>
+<td><code>STORAGE_MANAGED</code></td>
+<td>warning</td>
+<td>Temporary IDs can cause issues with <code>storage.managed</code>.</td>
+</tr>
+<tr>
 <td><code>IDENTITY_GETREDIRECTURL</code></td>
 <td>warning</td>
 <td>Temporary IDs can cause issues with <code>identity.getRedirectURL</code>.</td>
+</tr>
+<tr>
+<td><code>RUNTIME_ONMESSAGEEXTERNAL</code></td>
+<td>warning</td>
+<td>Temporary IDs can cause issues with <code>runtime.onMessageExternal</code>.</td>
+</tr>
+<tr>
+<td><code>RUNTIME_ONCONNECTEXTERNAL</code></td>
+<td>warning</td>
+<td>Temporary IDs can cause issues with <code>runtime.onConnectExternal</code>.</td>
 </tr>
 <tr>
 <td><code>BANNED_LIBRARY</code></td>
@@ -419,6 +389,11 @@
 <td><code>MANIFEST_FIELD_INVALID</code></td>
 <td>error</td>
 <td>A field is invalid</td>
+</tr>
+<tr>
+<td><code>MANIFEST_FIELD_DEPRECATED</code></td>
+<td>error</td>
+<td>A field is deprecated</td>
 </tr>
 <tr>
 <td><code>MANIFEST_BAD_PERMISSION</code></td>
