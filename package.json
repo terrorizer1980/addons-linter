@@ -49,7 +49,7 @@
     "ajv-merge-patch": "4.1.0",
     "chalk": "4.1.1",
     "cheerio": "1.0.0-rc.9",
-    "columnify": "1.5.4",
+    "columnify": "1.6.0",
     "common-tags": "1.8.0",
     "deepmerge": "4.2.2",
     "dispensary": "0.62.0",
